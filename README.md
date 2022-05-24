@@ -28,7 +28,7 @@ CON302 - Increasing developer velocity with Serverless Containers
     - `customize.sh`
 
 4. Get the login password for your ECR repo
-    `aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin $AWS_ACCOUNT.dkr.ecr.$AWS_REGION.amazonaws.com
+    `aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin $AWS_ACCOUNT.dkr.ecr.$AWS_REGION.amazonaws.com`
 
 5. Run the build script
 
